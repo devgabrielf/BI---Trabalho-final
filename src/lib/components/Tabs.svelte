@@ -11,4 +11,4 @@
 		<Tab {page} />
 	{/each}
 </div>
-<div class="fixed h-[50px] md:hidden" />
+<div class="h-[50px] md:hidden" />
