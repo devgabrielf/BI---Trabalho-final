@@ -18,7 +18,7 @@
 </script>
 
 <Header />
-<main class="flex h-[calc(100vh-86px)] md:h-[calc(100vh-60px)]">
+<main class="flex md:h-[calc(100vh-60px)]">
 	<Sidebar />
 	<Explorer />
 	<div class="flex flex-1 flex-col">

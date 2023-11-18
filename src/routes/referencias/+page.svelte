@@ -1,11 +1,6 @@
 <script lang="ts">
 	import cssIcon from "$assets/css.svg";
-
-	import type { PageData } from "./$types";
-
-	export let data: PageData;
-
-	let { rows } = data;
+	import { universities } from "$lib/data/universities";
 </script>
 
 <svelte:head>
@@ -14,11 +9,11 @@
 </svelte:head>
 
 <ul class="flex list-disc flex-col gap-3 p-8">
-	{#each rows as row (row.Universidade)}
-		{@const university = row.Universidade}
-		{@const city = row["Endereço"].split("-").at(-2)?.split(", ").at(-1)}
+	{#each universities as university (university.Universidade)}
+		{@const universityName = university.Universidade}
+		{@const city = university["Endereço"].split("-").at(-2)?.split(", ").at(-1)}
 		<li class="text-zinc-200">
-			INEP. Enade 2021 - {university} - {city}. Brasília, 2021.
+			INEP. Enade 2021 - {universityName} - {city}. Brasília, 2021.
 		</li>
 	{/each}
 </ul>
