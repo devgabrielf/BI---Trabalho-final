@@ -1,0 +1,11 @@
+.DS_Store
+README.md
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+src/app.html
+package-lock.json
