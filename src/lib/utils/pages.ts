@@ -26,11 +26,6 @@ export const pages: PageType[] = [
 		icon: cssIcon,
 	},
 	{
-		route: "/geobi",
-		label: "geobi.js",
-		icon: jsIcon,
-	},
-	{
 		route: "/powerbi",
 		label: "powerbi.js",
 		icon: jsIcon,
