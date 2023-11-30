@@ -9,7 +9,7 @@
 </svelte:head>
 
 <table
-	class="scrollbar block w-[calc(100vw-32px)] divide-y divide-gray-400 overflow-x-auto md:w-[calc(100vw-282px)]"
+	class="scrollbar block w-[calc(100vw-32px)] divide-y divide-gray-400 overflow-x-auto md:w-[calc(100vw-292px)]"
 >
 	<thead>
 		<tr>
